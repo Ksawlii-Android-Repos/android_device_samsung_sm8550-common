@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <bool name="config_supportDoubleTapWake">true</bool>
+    <integer name="config_defaultRefreshRate">0</integer>
+    <integer name="config_defaultPeakRefreshRate">120</integer>
+    <integer-array name="config_brightnessThresholdsOfPeakRefreshRate" translatable="false">
+        <item>7</item>
+        <item>11</item>
+    </integer-array>
+    <integer-array name="config_ambientThresholdsOfPeakRefreshRate" translatable="false">
+        <item>-1</item>
+        <item>15</item>
+    </integer-array>
+    <integer name="config_defaultRefreshRateInZone">120</integer>
+    <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
+    <bool name="config_enableBurnInProtection">true</bool>
+</resources>

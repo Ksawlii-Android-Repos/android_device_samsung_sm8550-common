@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <bool name="config_wifi5ghzSupport" translatable="false">true</bool>
+    <bool name="config_wifiSoftapAutoUpgradeToBridgedConfigWhenSupported" translatable="false">false</bool>
+    <bool name="config_wifi_background_scan_support" translatable="false">true</bool>
+    <integer name="config_wifiHardwareSoftapMaxClientCount" translatable="false">32</integer>
+    <string name="config_wifiSoftap2gChannelList" translatable="false" />
+    <string name="config_wifiSoftap5gChannelList" translatable="false" />
+    <string name="config_wifiSoftap6gChannelList" translatable="false" />
+    <bool name="config_wifi_only_link_same_credential_configurations" translatable="false">false</bool>
+    <bool name="config_wifi_softap_acs_supported" translatable="false">true</bool>
+    <bool name="config_wifi_softap_sae_supported" translatable="false">true</bool>
+    <bool name="config_wifi_softap_ieee80211ac_supported" translatable="false">true</bool>
+    <bool name="config_wifiSoftap6ghzSupported" translatable="false">true</bool>
+    <bool name="config_wifi_connected_mac_randomization_supported" translatable="false">true</bool>
+    <bool name="config_wifi_p2p_mac_randomization_supported" translatable="false">true</bool>
+    <bool name="config_wifiSoftapAcsIncludeDfs" translatable="false">true</bool>
+    <integer name="config_wifiDelayDisconnectOnImsLostMs" translatable="false">1000</integer>
+    <bool name="config_wifiAllowMultipleNetworksOnSameAwareNdi" translatable="false">true</bool>
+    <integer name="config_wifiMaxNumWifiConfigurations" translatable="false">1000</integer>
+    <bool name="config_wifiSoftapOweTransitionSupported" translatable="false">true</bool>
+    <bool name="config_wifiSoftapOweSupported" translatable="false">true</bool>
+    <string-array name="config_wifiCharsetsForSsidTranslation" translatable="false">
+        <item>zh,GBK</item>
+    </string-array>
+</resources>

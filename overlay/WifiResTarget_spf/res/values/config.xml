@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <bool name="config_wifi5ghzSupport" translatable="false">true</bool>
+    <bool name="config_wifi6ghzSupport" translatable="false">true</bool>
+    <bool name="config_wifi_background_scan_support" translatable="false">true</bool>
+    <bool name="config_wifiEnablePartialInitialScan" translatable="false">true</bool>
+    <bool name="config_wifi_softap_acs_supported" translatable="false">true</bool>
+    <bool name="config_wifiSoftapIeee80211axSupported" translatable="false">true</bool>
+    <bool name="config_wifiSoftapHeSuBeamformerSupported" translatable="false">true</bool>
+    <bool name="config_wifiSoftapHeSuBeamformeeSupported" translatable="false">true</bool>
+    <bool name="config_wifiSoftap6ghzSupported" translatable="false">true</bool>
+    <bool name="config_wifiBridgedSoftApSupported" translatable="false">true</bool>
+    <string name="config_wifi_tcp_buffers" translatable="false">524288,1048576,2097152,524288,1048576,4194304</string>
+    <bool name="config_wifiMultiStaNetworkSwitchingMakeBeforeBreakEnabled" translatable="false">true</bool>
+    <bool name="config_wifiMultiStaLocalOnlyConcurrencyEnabled" translatable="false">true</bool>
+    <bool name="config_wifiMultiStaRestrictedConcurrencyEnabled" translatable="false">true</bool>
+    <bool name="config_wifiMultiStaMultiInternetConcurrencyEnabled" translatable="false">true</bool>
+    <bool name="config_wifiSaeH2eSupported" translatable="false">true</bool>
+    <integer name="config_wifiMaxNumWifiConfigurations" translatable="false">1000</integer>
+    <bool name="config_wifiDriverSupportedNl80211RegChangedEvent" translatable="false">true</bool>
+    <bool name="config_wifiForcedSoftApRestartWhenCountryCodeChanged" translatable="false">false</bool>
+    <bool name="config_wifiNetworkCentricQosPolicyFeatureEnabled" translatable="false">true</bool>
+</resources>
